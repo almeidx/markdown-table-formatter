@@ -1,8 +1,15 @@
 Markdown Table Formatter
 ========================
 
-Fork of https://github.com/alanwsmith/markdown_table_formatter, hosted on Cloudflare Pages.
+Fork of https://github.com/alanwsmith/markdown_table_formatter, hosted on Cloudflare Workers.
 
 A JavaScript tool to format markdown tables for easier reading.
 
 [Live version](https://md.almeidx.dev)
+
+## Deploy
+
+```sh
+npx wrangler login
+npx wrangler deploy
+```
