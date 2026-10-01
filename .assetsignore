@@ -1,6 +1,6 @@
-# Dev/test artifacts not needed in production
+.git/
+.wrangler/
+lib/
+spec/
 test_run.html
-spec
-lib
-CNAME
 wrangler.jsonc
